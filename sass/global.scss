@@ -1,0 +1,133 @@
+@import "compass/css3";
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 400;
+  src: url(https://static1.squarespace.com/static/6413b3b74d7c7625056d2aa9/t/641895961c373a7d14b8c34d/1679332759259/WhitneyBook.otf)
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 500;
+  src: url(https://static1.squarespace.com/static/6413b3b74d7c7625056d2aa9/t/641895a2cffbfc142b5292ac/1679332770889/WhitneyMedium.otf)
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 700;
+  src: url(https://static1.squarespace.com/static/6413b3b74d7c7625056d2aa9/t/641895a729836f2a5a7fde58/1679332776182/WhitneySemibold.otf)
+}
+
+* {
+  font-family: Whitney !important;
+}
+
+body {
+  background-color: #E6E6E6;
+}
+
+.header-nav {
+  background: linear-gradient(180deg, rgba(0, 0, 0, .25) 0%, transparent 100%);
+}
+
+footer {
+  display: none;
+}
+
+.header-actions {
+  pointer-events: none;
+}
+
+.header-actions a {
+  pointer-events: all;
+}
+
+.header-nav,
+.header-actions {
+  padding: 30px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  width: 100% !important;
+  flex: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+@media (min-width: 800px) {
+  .header-title {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .accordion-items-container {
+    margin-top: -1em !important;
+  }
+}
+
+.header-nav-item {
+  float: left;
+}
+
+.header-nav-list {
+  display: block;
+}
+
+.header-nav-item {
+  margin-bottom: .7em;
+}
+
+.header-menu-nav-folder-content a,
+.header-nav-list a,
+.header-nav-item--active a,
+#calacademywu-modal .modal-content a {
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline;
+  padding: 6px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  border: none;
+  background: url('https://calacademyworkersunited.github.io/svgs/highlight.svg') no-repeat 0 0 transparent !important;
+}
+
+.header-menu-nav-folder-content a:hover,
+.header-nav-list a:hover,
+.header-menu-nav-folder-content a:active,
+.header-nav-list a:active,
+#calacademywu-modal .modal-content a:hover,
+#calacademywu-modal .modal-content a:active {
+  filter: none;
+  @include filter(grayscale(100%));
+  // -webkit-filter: grayscale(100%);
+  // -moz-filter: grayscale(100%);
+  // -ms-filter: grayscale(100%);
+  // -o-filter: grayscale(100%);
+}
+
+.header-menu-nav-folder-content>div {
+  margin-bottom: 2em;
+  padding-left: 2em;
+}
+
+.header-menu-nav-folder-content a {
+  margin: 0;
+  line-height: 1.3em;
+}
+
+.horizontalrule-block div {
+  display: none;
+}
+
+.horizontalrule-block {
+  width: 100%;
+  height: 60px !important;
+  background: none;
+  background-image: url('https://calacademyworkersunited.github.io/svgs/bee.svg');
+  background-size: 60px 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(45deg);
+}
