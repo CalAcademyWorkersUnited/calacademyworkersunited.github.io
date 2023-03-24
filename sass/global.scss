@@ -1,5 +1,7 @@
 @import "compass/css3";
 
+$orange: #f0703a;
+
 @font-face {
   font-family: Whitney;
   font-weight: 400;
@@ -101,10 +103,6 @@ footer {
 #calacademywu-modal .modal-content a:active {
   filter: none;
   @include filter(grayscale(100%));
-  // -webkit-filter: grayscale(100%);
-  // -moz-filter: grayscale(100%);
-  // -ms-filter: grayscale(100%);
-  // -o-filter: grayscale(100%);
 }
 
 .header-menu-nav-folder-content>div {
@@ -130,4 +128,32 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   transform: rotate(45deg);
+}
+
+#union-difference {
+  td, th {
+    vertical-align: top;
+    text-align: left;
+    padding: 1em;
+  }
+  
+  th span {
+    font-size: 1.2em;
+    border-bottom: 3px solid $orange;
+  }
+  
+  tr:nth-child(2n) {
+    background-color: rgba(0,0,0,.05);
+  }
+  
+  ul {
+    list-style: square;
+    margin: 0;
+    padding-left: 1em;
+  }
+  
+  h3 {
+    font-size: 1em;
+    margin: 0;
+  }
 }
