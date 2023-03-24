@@ -93,6 +93,10 @@ footer {
   padding-right: 40px !important;
   border: none;
   background: url('https://calacademyworkersunited.github.io/svgs/highlight.svg') no-repeat 0 0 transparent !important;
+
+  div {
+    background: none !important;
+  }
 }
 
 .header-menu-nav-folder-content a:hover,

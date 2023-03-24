@@ -98,8 +98,15 @@ footer {
   border: none;
   background: url("https://calacademyworkersunited.github.io/svgs/highlight.svg") no-repeat 0 0 transparent !important;
 }
+/* line 97, ../sass/global.scss */
+.header-menu-nav-folder-content a div,
+.header-nav-list a div,
+.header-nav-item--active a div,
+#calacademywu-modal .modal-content a div {
+  background: none !important;
+}
 
-/* line 98, ../sass/global.scss */
+/* line 102, ../sass/global.scss */
 .header-menu-nav-folder-content a:hover,
 .header-nav-list a:hover,
 .header-menu-nav-folder-content a:active,
@@ -111,24 +118,24 @@ footer {
   filter: grayscale(100%);
 }
 
-/* line 108, ../sass/global.scss */
+/* line 112, ../sass/global.scss */
 .header-menu-nav-folder-content > div {
   margin-bottom: 2em;
   padding-left: 2em;
 }
 
-/* line 113, ../sass/global.scss */
+/* line 117, ../sass/global.scss */
 .header-menu-nav-folder-content a {
   margin: 0;
   line-height: 1.3em;
 }
 
-/* line 118, ../sass/global.scss */
+/* line 122, ../sass/global.scss */
 .horizontalrule-block div {
   display: none;
 }
 
-/* line 122, ../sass/global.scss */
+/* line 126, ../sass/global.scss */
 .horizontalrule-block {
   width: 100%;
   height: 60px !important;
@@ -140,28 +147,28 @@ footer {
   transform: rotate(45deg);
 }
 
-/* line 134, ../sass/global.scss */
+/* line 138, ../sass/global.scss */
 #union-difference td, #union-difference th {
   vertical-align: top;
   text-align: left;
   padding: 1em;
 }
-/* line 140, ../sass/global.scss */
+/* line 144, ../sass/global.scss */
 #union-difference th span {
   font-size: 1.2em;
   border-bottom: 3px solid #f0703a;
 }
-/* line 145, ../sass/global.scss */
+/* line 149, ../sass/global.scss */
 #union-difference tr:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 149, ../sass/global.scss */
+/* line 153, ../sass/global.scss */
 #union-difference ul {
   list-style: square;
   margin: 0;
   padding-left: 1em;
 }
-/* line 155, ../sass/global.scss */
+/* line 159, ../sass/global.scss */
 #union-difference h3 {
   font-size: 1em;
   margin: 0;
