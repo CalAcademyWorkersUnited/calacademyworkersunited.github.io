@@ -96,7 +96,7 @@ footer {
   padding-left: 40px !important;
   padding-right: 40px !important;
   border: none;
-  background: url("https://calacademyworkersunited.github.io/svgs/highlight.svg") no-repeat 0 0 transparent !important;
+  background: url("../svgs/highlight.svg") no-repeat 0 0 transparent !important;
 }
 /* line 97, ../sass/global.scss */
 .header-menu-nav-folder-content a div,
@@ -140,35 +140,36 @@ footer {
   width: 100%;
   height: 60px !important;
   background: none;
-  background-image: url("https://calacademyworkersunited.github.io/svgs/bee.svg");
+  background-image: url("../svgs/bee.svg");
   background-size: 60px 60px;
   background-position: center;
   background-repeat: no-repeat;
   transform: rotate(45deg);
+  margin-top: 1em;
 }
 
-/* line 138, ../sass/global.scss */
+/* line 139, ../sass/global.scss */
 #union-difference td, #union-difference th {
   vertical-align: top;
   text-align: left;
   padding: 1em;
 }
-/* line 144, ../sass/global.scss */
+/* line 145, ../sass/global.scss */
 #union-difference th span {
   font-size: 1.2em;
   border-bottom: 3px solid #f0703a;
 }
-/* line 149, ../sass/global.scss */
+/* line 150, ../sass/global.scss */
 #union-difference tr:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 153, ../sass/global.scss */
+/* line 154, ../sass/global.scss */
 #union-difference ul {
   list-style: square;
   margin: 0;
   padding-left: 1em;
 }
-/* line 159, ../sass/global.scss */
+/* line 160, ../sass/global.scss */
 #union-difference h3 {
   font-size: 1em;
   margin: 0;

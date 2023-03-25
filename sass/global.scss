@@ -92,7 +92,7 @@ footer {
   padding-left: 40px !important;
   padding-right: 40px !important;
   border: none;
-  background: url('https://calacademyworkersunited.github.io/svgs/highlight.svg') no-repeat 0 0 transparent !important;
+  background: url('../svgs/highlight.svg') no-repeat 0 0 transparent !important;
 
   div {
     background: none !important;
@@ -127,11 +127,12 @@ footer {
   width: 100%;
   height: 60px !important;
   background: none;
-  background-image: url('https://calacademyworkersunited.github.io/svgs/bee.svg');
+  background-image: url('../svgs/bee.svg');
   background-size: 60px 60px;
   background-position: center;
   background-repeat: no-repeat;
   transform: rotate(45deg);
+  margin-top: 1em;
 }
 
 #union-difference {
