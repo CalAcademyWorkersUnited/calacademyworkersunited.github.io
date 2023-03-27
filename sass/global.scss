@@ -135,7 +135,14 @@ footer {
   margin-top: 1em;
 }
 
-#union-difference {
+.union-difference {
+  th {
+    width: 30%;
+  }
+  td {
+    width: 70%;
+  }
+
   td, th {
     vertical-align: top;
     text-align: left;
@@ -147,7 +154,7 @@ footer {
     border-bottom: 3px solid $orange;
   }
   
-  tr:nth-child(2n) {
+  tr:nth-child(odd) {
     background-color: rgba(0,0,0,.05);
   }
   

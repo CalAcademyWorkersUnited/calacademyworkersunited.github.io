@@ -149,28 +149,36 @@ footer {
 }
 
 /* line 139, ../sass/global.scss */
-#union-difference td, #union-difference th {
+.union-difference th {
+  width: 30%;
+}
+/* line 142, ../sass/global.scss */
+.union-difference td {
+  width: 70%;
+}
+/* line 146, ../sass/global.scss */
+.union-difference td, .union-difference th {
   vertical-align: top;
   text-align: left;
   padding: 1em;
 }
-/* line 145, ../sass/global.scss */
-#union-difference th span {
+/* line 152, ../sass/global.scss */
+.union-difference th span {
   font-size: 1.2em;
   border-bottom: 3px solid #f0703a;
 }
-/* line 150, ../sass/global.scss */
-#union-difference tr:nth-child(2n) {
+/* line 157, ../sass/global.scss */
+.union-difference tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 154, ../sass/global.scss */
-#union-difference ul {
+/* line 161, ../sass/global.scss */
+.union-difference ul {
   list-style: square;
   margin: 0;
   padding-left: 1em;
 }
-/* line 160, ../sass/global.scss */
-#union-difference h3 {
+/* line 167, ../sass/global.scss */
+.union-difference h3 {
   font-size: 1em;
   margin: 0;
 }
