@@ -102,6 +102,10 @@ footer {
   }
 }
 
+.header-menu-nav-folder-content a {
+  display: block;
+}
+
 a[aria-current="page"],
 .header-menu-nav-folder-content a:hover,
 .header-nav-list a:hover,
