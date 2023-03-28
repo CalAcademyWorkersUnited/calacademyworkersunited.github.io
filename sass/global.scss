@@ -95,7 +95,7 @@ footer {
   background-image: url('../svgs/highlight.svg') !important;
   background-color: transparent !important;
   background-repeat: no-repeat !important;
-  @include background-size(cover);
+  background-size: cover !important;
 
   div {
     background: none !important;

@@ -99,10 +99,7 @@ footer {
   background-image: url("../svgs/highlight.svg") !important;
   background-color: transparent !important;
   background-repeat: no-repeat !important;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-size: cover !important;
 }
 /* line 100, ../sass/global.scss */
 .header-menu-nav-folder-content a div,
