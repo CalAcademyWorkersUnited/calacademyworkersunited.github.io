@@ -143,6 +143,10 @@ a[aria-current="page"],
   margin-top: 1em;
 }
 
+.accordion-item__description p a {
+  text-decoration: underline;
+}
+
 .union-difference {
   th {
     width: 30%;

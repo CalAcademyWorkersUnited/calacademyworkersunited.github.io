@@ -157,36 +157,41 @@ a[aria-current="page"],
   margin-top: 1em;
 }
 
-/* line 147, ../sass/global.scss */
+/* line 146, ../sass/global.scss */
+.accordion-item__description p a {
+  text-decoration: underline;
+}
+
+/* line 151, ../sass/global.scss */
 .union-difference th {
   width: 30%;
 }
-/* line 150, ../sass/global.scss */
+/* line 154, ../sass/global.scss */
 .union-difference td {
   width: 70%;
 }
-/* line 154, ../sass/global.scss */
+/* line 158, ../sass/global.scss */
 .union-difference td, .union-difference th {
   vertical-align: top;
   text-align: left;
   padding: 1em;
 }
-/* line 160, ../sass/global.scss */
+/* line 164, ../sass/global.scss */
 .union-difference th span {
   font-size: 1.2em;
   border-bottom: 3px solid #f0703a;
 }
-/* line 165, ../sass/global.scss */
+/* line 169, ../sass/global.scss */
 .union-difference tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 169, ../sass/global.scss */
+/* line 173, ../sass/global.scss */
 .union-difference ul {
   list-style: square;
   margin: 0;
   padding-left: 1em;
 }
-/* line 175, ../sass/global.scss */
+/* line 179, ../sass/global.scss */
 .union-difference h3 {
   font-size: 1em;
   margin: 0;
