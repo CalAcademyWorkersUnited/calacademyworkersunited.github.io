@@ -196,3 +196,15 @@ a[aria-current="page"],
   font-size: 1em;
   margin: 0;
 }
+
+/* line 185, ../sass/global.scss */
+.tweak-blog-single-column-text-alignment-center .blog-single-column .blog-single-column--text {
+  text-align: left;
+}
+
+@media screen and (min-width: 1060px) {
+  /* line 190, ../sass/global.scss */
+  .blog-item-wrapper .blog-item-title h1.entry-title {
+    font-size: calc(3 * 1rem);
+  }
+}

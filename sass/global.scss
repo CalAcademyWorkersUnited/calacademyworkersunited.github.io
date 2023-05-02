@@ -181,3 +181,13 @@ a[aria-current="page"],
     margin: 0;
   }
 }
+
+.tweak-blog-single-column-text-alignment-center .blog-single-column .blog-single-column--text {
+  text-align: left;
+}
+
+@media screen and (min-width: 1060px) {
+  .blog-item-wrapper .blog-item-title h1.entry-title {
+    font-size: calc(3 * 1rem);
+  }
+}
